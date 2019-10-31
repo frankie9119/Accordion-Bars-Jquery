@@ -1,0 +1,25 @@
+{
+  "name": "naety",
+  "version": "1.0.0",
+  "description": "bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "fran",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery-validation": "^1.19.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
+}

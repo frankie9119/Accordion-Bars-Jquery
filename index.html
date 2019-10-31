@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Accordion Bars</title>
+    <link rel="icon" href="img/me3.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Panels Begin =========================================================== -->
+    <div class="col-md-6 main-panels">
+        <div class="panel-group margin_0" id="accordion1">
+            <div class="panel panel-default panel-content" id="1">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse1">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 1
+                        </a>
+                    </h4>
+                </div>
+                <div style="height: 0px;" id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default panel-content" id="2">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse2" class="collapsed">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 2
+                        </a>
+                    </h4>
+                </div>
+                <div style="height: 0px;" id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default panel-content" id="3">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse3" class="collapsed">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 3
+                        </a>
+                    </h4>
+                </div>
+                <div style="height: 0px;" id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default panel-content" id="4">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse4" class="collapsed">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 4
+                        </a>
+                    </h4>
+                </div>
+                <div style="height: 0px;" id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default panel-content" id="5">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5" class="collapsed">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 5
+                        </a>
+                    </h4>
+                </div>
+                <div style="height: 0px;" id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default panel-content" id="6">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse6" class="">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Accordion bar 6
+                        </a>
+                    </h4>
+                </div>
+                <div style="" id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body content">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse7" class="collapsed">
+                            <i class="rt-icon2-bubble highlight"></i>
+                            Contact Form
+                        </a>
+                    </h4>
+                </div>
+                <!-- Panels END =========================================================== -->
+                <!-- Form Begins =========================================================== -->
+                <div style="height: 100%;" id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-contact">
+                        <div id="main">
+                            <form class="cmxform" id="commentForm" method="get" action="">
+                                <fieldset>
+                                    <legend>Please provide your name, email address, phone number, and a message.</legend>
+                                    <p>
+                                        <label for="cname">Name (required, at least 2 characters)</label>
+                                        <input id="cname" name="name" minlength="2" type="text" required>
+                                    </p>
+                                    <p>
+                                        <label for="cname">Surname (required, at least 2 characters)</label>
+                                        <input id="csurname" name="surname" minlength="2" type="text" required>
+                                    </p>
+                                    <p>
+                                        <label for="cemail">E-Mail (required)</label>
+                                        <input id="cemail" type="email" name="email" required>
+                                    </p>
+                                    <p>
+                                        <label for="curl">Phone Number (required</label>
+                                        <input id="curl" type="number" name="number" required>
+                                    </p>
+                                    <p>
+                                        <label for="ccomment">Your message (required)</label>
+                                        <textarea id="ccomment" name="comment" minlength="5" required></textarea>
+                                    </p>
+                                    <p>
+                                        <div class="col-md-4 text-center">
+                                            <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </p>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form ENDS =========================================================== -->
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
